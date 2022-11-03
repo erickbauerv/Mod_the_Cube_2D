@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    public void PickupItem(GameObject obj)
+    public void PickupItem(GameObject obj, Color color)
     {
-        this.GetComponent<SpriteRenderer>().color = Color.red;
+        this.GetComponent<SpriteRenderer>().color = color;
     }
 }
